@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+/* SETUP */
+
+body {
+  margin: 0 5rem;
+}
+
+.wrapper {
+  height: 50vh;
+}
+
+/* COLOR CLASSES */
+
+.pink {
+  background-color: pink;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: white;
+}
+
+.red {
+  background-color: red;
+}
