@@ -1,16 +1,12 @@
-
-
-
-
-
-
-
-
-
 /* SETUP */
 
 body {
   margin: 0 5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .wrapper {
@@ -21,6 +17,21 @@ body {
 
 .pink {
   background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+
+  .blue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 30%;
+
+    .red {
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 .green {
@@ -29,6 +40,10 @@ body {
 
 .purple {
   background-color: purple;
+  height: 60%;
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .blue {
@@ -40,7 +55,7 @@ body {
 }
 
 .yellow {
-  background-color: white;
+  background-color: yellow;
 }
 
 .red {
